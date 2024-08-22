@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/b1ee9fe2-9957-45a0-bacb-20c7a1dc844e)
+![image](https://github.com/user-attachments/assets/d6d94b79-f8a9-40a5-8730-6903852c98ab)
+
 Clone the Repo:<br />
 git clone https://github.com/Kuldeepagrahari/Fusion-dashboard.git <br />
 cd Dashboard<br />
