@@ -1,0 +1,21 @@
+/* User Card Layout */
+.user {
+    width: 250px;
+    height: 90vh;
+    float: right;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1.5px solid gray;
+    padding-top: 100px;
+}
+
+.user-info {
+    margin-top: 5vh;
+    font-size: 13px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
