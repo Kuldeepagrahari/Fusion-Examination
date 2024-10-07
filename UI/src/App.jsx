@@ -11,7 +11,7 @@ const App = () => {
     <div>
       <Navbar />
       <Routes>
-        <Route path='/submit-grades' element={<SubmitGardes/>}></Route>
+        <Route path='/' element={<SubmitGardes/>}></Route>
         <Route path='/verify-grades' element={<VerifyGrades/>}></Route>
         <Route path='/announcement' element={<Announcement/>}></Route>
         <Route path='/generate-transcript' element={<GenerateTranscript/>}></Route>

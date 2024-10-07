@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='nav'>
       <ul>
-        <NavLink to="./submit-grades">Submit Grades</NavLink>
+        <NavLink to="./">Submit Grades</NavLink>
         <NavLink to="./verify-grades">Verify Grades</NavLink>
         <NavLink to="./announcement">Announcement</NavLink>
         <NavLink to="./generate-transcript">Generate Transcript</NavLink>
