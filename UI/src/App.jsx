@@ -8,7 +8,7 @@ import SeatingPlan from "./pages/SeatingPlan/SeatingPlan"
 import Navbar from './components/Navbar/Navbar'
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Navbar />
       <Routes>
         <Route path='/' element={<SubmitGardes/>}></Route>

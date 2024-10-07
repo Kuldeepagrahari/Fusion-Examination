@@ -1,0 +1,51 @@
+.nav {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    
+    align-items: center;
+    gap: 20px;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+    height: 40px; /* Set height to make the vertical line visible */
+  }
+  
+  ul li{
+    content: "";
+    height: 70%; /* Adjust height of the vertical line */
+    width: 1px;
+    background-color: #ccc;
+    position: absolute;
+    right: 0;
+    top: 15%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+  }
+  
+  a:hover, .active {
+    color: #007bff;
+    transform: scale(1.05);
+  }
+  
+  .nav-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
